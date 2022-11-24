@@ -1,0 +1,36 @@
+.inputs-area {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    border: 2px solid rgba(0, 0, 0, 0.234);
+    border-radius: 15px;
+    background-color: rgb(185, 182, 139);
+    padding: 12px 30px;
+
+    input {
+        width: 100%;
+        margin: 15px 0;
+        padding: 12px 18px;
+    }
+
+    button{
+        width: 33%;
+        border: none;
+        border-radius: 15px;
+        padding: 12px 18px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(25, 68, 168);
+        color: white;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.3s;
+        margin-top: 40px;
+
+        &:hover{
+            background-color: rgb(19, 50, 122);
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.datas-printed-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+
+    table, tr, td, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 18px;
+        padding: 12px 18px;
+    }
+}
+
